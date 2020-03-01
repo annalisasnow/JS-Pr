@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'PresentationTheme';
+    src: url("../FONTS/14117.otf") format('opentype');
+}
+body, html {
+    height: 100%;
+}
+#headerLessonTheme{
+    font-size: 300%;
+    text-align: center;
+    font-family: PresentationTheme, serif;
+}
+.exampleLink{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+.mainTextTheme{
+    padding: 7%;
+    font-family: PresentationTheme, serif;
+}
+ul {
+    font-size: 300%;
+    display: table;
+    margin: 0 auto;
+    list-style-position: inside;
+    text-align: center;
+}
+li{
+    line-height: 1.75;
+}
+#bcgImg{
+    background-image: url("../IMAGES/pyGenomeTracks.jpg");
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.8);
+    background-blend-mode: lighten;
+}

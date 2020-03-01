@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'PresentationTheme';
+    src: url("../FONTS/14117.otf") format('opentype');
+}
+#headerLessonTheme{
+    font-size: 300%;
+    padding: 1%;
+    text-align: center;
+    font-family: PresentationTheme, serif;
+}
+.mainTextTheme{
+    padding: 1%;
+    font-family: PresentationTheme, serif;
+    font-size: 150%;
+}
+.linkText{
+    color: aliceblue;
+    font-size: 200%;
+}
+img{
+    float: right;
+}
+#bcgImg{
+    background-image: url("../IMAGES/ipl.gif");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+}
+#timer15{
+    text-align: center;
+    font-size: 1000%;
+    color: aliceblue;
+    float: left;
+    font-family: PresentationTheme, serif;
+    background-color: rgba(189, 197, 196, 0.6);
+}

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'PresentationTheme';
+    src: url("../FONTS/14117.otf") format('opentype');
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 33%;
+    padding: 10px;
+    height: 100vh;
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    z-index: -1;
+    border-color: blueviolet;
+}
+.columnText{
+    font-size: 150%;
+    text-align: center;
+    font-family: PresentationTheme, serif;
+    color: dodgerblue;
+}
